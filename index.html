@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>For Output Open Console</h1>
+
+    <script>
+        //1.ans
+        // const person = {
+        //     name: "Sai Sathwik",
+        //     age : 23,
+        //     country : "India"
+        // }
+        // for(i in person){
+        //     console.log(i + " : " + person[i])
+        // }
+
+        //2.ans
+        // const numbers = [10,20,30,40,50];
+        // let sum = 0
+        // for(num of numbers){
+        //     sum += num
+        // }
+        // console.log(sum)
+
+        //3.ans
+        //  const person = {
+        //     name: "Sai Sathwik",
+        //     age : 23
+        // }
+        // Object.freeze(person);
+        // person.age = 25
+        // console.log(person)
+
+
+        //4.ans
+        //  const person = {
+        //     name: "Sai Sathwik"
+        // }
+        // Object.seal(person);
+        // person.age = 25
+        // console.log(person)
+
+        //5.ans
+        //  const person = {
+        //     name: "Sai Sathwik",
+        //     age : 23,
+        //     country : "India"
+        // }
+        // console.log(Object.keys(person))
+
+        //6.ans
+        // const person = {
+        //     name: "Sai Sathwik",
+        //     age : 23,
+        //     country : "India"
+        // }
+        // console.log(Object.values(person))
+
+        //7.ans
+        // const person = {
+        //     name: "Sai Sathwik",
+        //     age : 23,
+        //     country : "India"
+        // }
+        // console.log(Object.entries(person))
+
+        //8.ans
+        // const student = {
+        //     name : "Sai",
+        //     subjects : {math : 90,english :85}
+        // }
+        // for(i in student){
+        //     if(i == "name")
+        //     console.log(i +" : "+ student[i])
+        //     else{
+        //         console.log(i + ":" )
+        //         for(i2 in student[i]){
+        //             console.log(i2 + " : " + student[i][i2])
+        //         }
+        //     }
+        // }
+
+        //9.ans
+        // const student = {
+        //     name : "Sai",
+        //     age : 23,
+        //     subjects : "math"
+        // }
+        // for(let key in student){
+        //     console.log(key +" : "+ student[key])
+        // }
+        // Object.values(student).forEach((value) => console.log(value))
+
+        //10.ans
+        const person = {
+            name: "Sai Sathwik"
+        }
+        Object.freeze(person);
+        person.name = "Sathwik"
+        person.age = 25
+        console.log(person)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
